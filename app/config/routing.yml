@@ -1,0 +1,7 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+calculator:
+    path: /calculator
+    defaults: {_controller: AppBundle:Calculator:calculator}
